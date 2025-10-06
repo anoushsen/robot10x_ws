@@ -32,7 +32,7 @@ Pure Pursuit Controller (follows trajectory)
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Ensure the following are installed:
 - **Ubuntu 22.04**
@@ -72,7 +72,7 @@ robot_state_publisher
 
 You’ll see console messages confirming path, trajectory, and tracking initialization.
 
-### For Debugging
+## For Debugging
 
 ros2 topic list
 
@@ -80,6 +80,11 @@ ros2 topic echo /smooth_path
 
 ros2 topic echo /trajectory
 
-ros2 topic echo /mission_complete
+## To test with different waypoints
 
+In x y format, add your waypoints to the waypoints.txt file. The system requires there to more than 3 waypoints.
 
+```bash
+cd ~/robot10x_ws/path_smoothing
+nano waypoints.txt
+```
