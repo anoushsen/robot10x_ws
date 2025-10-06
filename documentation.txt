@@ -1,6 +1,8 @@
 Differential Drive Robot:
 I chose to use the RoverRobotics robot because of my familiarity with the robots due to some prior exposure, as well as a good base for future expansion and deployment on an 
-actual physical robot, as they already have a well-defined sim to implementation pipeline. 
+actual physical robot, as they already have a well-defined sim to implementation pipeline. There are also a variety of robot urdf files to suit needs, as well as a number of SDF 
+world files to experiment with different worlds in simulation. I chose to use an empty world for my demonstration to better illustrate my system, but in an extended system with path
+planning, object avoidance and SLAM, a world file like their warehouse file would be greatly beneficial.
 
 Part 1: Path Smoothing
 Algorithm: B-Spline Smoothing
