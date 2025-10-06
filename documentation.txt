@@ -1,3 +1,7 @@
+Differential Drive Robot:
+I chose to use the RoverRobotics robot because of my familiarity with the robots due to some prior exposure, as well as a good base for future expansion and deployment on an 
+actual physical robot, as they already have a well-defined sim to implementation pipeline. 
+
 Part 1: Path Smoothing
 Algorithm: B-Spline Smoothing
 Alternatives Tested: Linear Interpolation, Cubic Spline
