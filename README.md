@@ -4,7 +4,9 @@ This repository implements a **navigation stack** for a differential-drive robot
 It performs waypoint-based navigation with a **B-spline path smoother**, **time-parameterized trajectory generator**, and **Pure Pursuit controller**.
 
 ---
-
+## Demo Video
+https://youtu.be/y9AHiM7FeZs
+---
 ## Overview
 
 ### Data Flow
