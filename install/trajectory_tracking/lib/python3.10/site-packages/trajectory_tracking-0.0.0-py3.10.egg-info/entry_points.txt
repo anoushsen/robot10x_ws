@@ -1,0 +1,3 @@
+[console_scripts]
+tracking_node = trajectory_tracking.tracking_node:main
+

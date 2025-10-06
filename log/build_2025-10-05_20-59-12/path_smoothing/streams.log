@@ -1,0 +1,24 @@
+[1.571s] Invoking command in '/home/anoushka/robot10x_ws/src/path_smoothing': PYTHONPATH=/home/anoushka/robot10x_ws/build/path_smoothing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_smoothing build --build-base /home/anoushka/robot10x_ws/build/path_smoothing/build install --record /home/anoushka/robot10x_ws/build/path_smoothing/install.log --single-version-externally-managed install_data
+[1.827s] running egg_info
+[1.827s] writing ../../build/path_smoothing/path_smoothing.egg-info/PKG-INFO
+[1.827s] writing dependency_links to ../../build/path_smoothing/path_smoothing.egg-info/dependency_links.txt
+[1.828s] writing entry points to ../../build/path_smoothing/path_smoothing.egg-info/entry_points.txt
+[1.828s] writing requirements to ../../build/path_smoothing/path_smoothing.egg-info/requires.txt
+[1.828s] writing top-level names to ../../build/path_smoothing/path_smoothing.egg-info/top_level.txt
+[1.831s] reading manifest file '../../build/path_smoothing/path_smoothing.egg-info/SOURCES.txt'
+[1.832s] writing manifest file '../../build/path_smoothing/path_smoothing.egg-info/SOURCES.txt'
+[1.832s] running build
+[1.832s] running build_py
+[1.832s] copying path_smoothing/smoothing_node.py -> /home/anoushka/robot10x_ws/build/path_smoothing/build/lib/path_smoothing
+[1.832s] running install
+[1.833s] running install_lib
+[1.833s] copying /home/anoushka/robot10x_ws/build/path_smoothing/build/lib/path_smoothing/smoothing_node.py -> /home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages/path_smoothing
+[1.834s] byte-compiling /home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages/path_smoothing/smoothing_node.py to smoothing_node.cpython-310.pyc
+[1.838s] running install_data
+[1.838s] running install_egg_info
+[1.840s] removing '/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages/path_smoothing-0.0.0-py3.10.egg-info' (and everything under it)
+[1.840s] Copying ../../build/path_smoothing/path_smoothing.egg-info to /home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages/path_smoothing-0.0.0-py3.10.egg-info
+[1.844s] running install_scripts
+[1.882s] Installing smoothing_node script to /home/anoushka/robot10x_ws/install/path_smoothing/lib/path_smoothing
+[1.882s] writing list of installed files to '/home/anoushka/robot10x_ws/build/path_smoothing/install.log'
+[1.916s] Invoked command in '/home/anoushka/robot10x_ws/src/path_smoothing' returned '0': PYTHONPATH=/home/anoushka/robot10x_ws/build/path_smoothing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_smoothing build --build-base /home/anoushka/robot10x_ws/build/path_smoothing/build install --record /home/anoushka/robot10x_ws/build/path_smoothing/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking/tracking_node.py", line 8
+    from rclpy
+              ^
+SyntaxError: invalid syntax
+

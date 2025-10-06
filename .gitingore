@@ -1,0 +1,10 @@
+# ROS2 build and install folders
+build/
+install/
+log/
+.colcon/
+*.pyc
+__pycache__/
+.env/
+*.swp
+.DS_Store

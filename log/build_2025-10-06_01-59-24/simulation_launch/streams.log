@@ -1,0 +1,22 @@
+[0.965s] Invoking command in '/home/anoushka/robot10x_ws/src/simulation_launch': AMENT_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/anoushka/robot10x_ws/build/simulation_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_launch build --build-base /home/anoushka/robot10x_ws/build/simulation_launch/build install --record /home/anoushka/robot10x_ws/build/simulation_launch/install.log --single-version-externally-managed install_data
+[1.376s] running egg_info
+[1.376s] writing ../../build/simulation_launch/simulation_launch.egg-info/PKG-INFO
+[1.378s] writing dependency_links to ../../build/simulation_launch/simulation_launch.egg-info/dependency_links.txt
+[1.378s] writing entry points to ../../build/simulation_launch/simulation_launch.egg-info/entry_points.txt
+[1.379s] writing requirements to ../../build/simulation_launch/simulation_launch.egg-info/requires.txt
+[1.379s] writing top-level names to ../../build/simulation_launch/simulation_launch.egg-info/top_level.txt
+[1.393s] reading manifest file '../../build/simulation_launch/simulation_launch.egg-info/SOURCES.txt'
+[1.407s] writing manifest file '../../build/simulation_launch/simulation_launch.egg-info/SOURCES.txt'
+[1.407s] running build
+[1.407s] running build_py
+[1.416s] running install
+[1.416s] running install_lib
+[1.421s] running install_data
+[1.430s] copying launch/navigation.launch.py -> /home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/launch
+[1.431s] running install_egg_info
+[1.434s] removing '/home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages/simulation_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.437s] Copying ../../build/simulation_launch/simulation_launch.egg-info to /home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages/simulation_launch-0.0.0-py3.10.egg-info
+[1.443s] running install_scripts
+[1.482s] Installing mission_orchestrator script to /home/anoushka/robot10x_ws/install/simulation_launch/lib/simulation_launch
+[1.491s] writing list of installed files to '/home/anoushka/robot10x_ws/build/simulation_launch/install.log'
+[1.578s] Invoked command in '/home/anoushka/robot10x_ws/src/simulation_launch' returned '0': AMENT_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/anoushka/robot10x_ws/build/simulation_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_launch build --build-base /home/anoushka/robot10x_ws/build/simulation_launch/build install --record /home/anoushka/robot10x_ws/build/simulation_launch/install.log --single-version-externally-managed install_data

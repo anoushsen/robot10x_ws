@@ -1,0 +1,36 @@
+[0.990s] Invoking command in '/home/anoushka/robot10x_ws/src/trajectory_tracking': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking build --build-base /home/anoushka/robot10x_ws/build/trajectory_tracking/build install --record /home/anoushka/robot10x_ws/build/trajectory_tracking/install.log --single-version-externally-managed install_data
+[1.148s] running egg_info
+[1.148s] creating ../../build/trajectory_tracking/trajectory_tracking.egg-info
+[1.149s] writing ../../build/trajectory_tracking/trajectory_tracking.egg-info/PKG-INFO
+[1.149s] writing dependency_links to ../../build/trajectory_tracking/trajectory_tracking.egg-info/dependency_links.txt
+[1.149s] writing entry points to ../../build/trajectory_tracking/trajectory_tracking.egg-info/entry_points.txt
+[1.149s] writing requirements to ../../build/trajectory_tracking/trajectory_tracking.egg-info/requires.txt
+[1.150s] writing top-level names to ../../build/trajectory_tracking/trajectory_tracking.egg-info/top_level.txt
+[1.150s] writing manifest file '../../build/trajectory_tracking/trajectory_tracking.egg-info/SOURCES.txt'
+[1.152s] reading manifest file '../../build/trajectory_tracking/trajectory_tracking.egg-info/SOURCES.txt'
+[1.152s] writing manifest file '../../build/trajectory_tracking/trajectory_tracking.egg-info/SOURCES.txt'
+[1.152s] running build
+[1.152s] running build_py
+[1.152s] creating /home/anoushka/robot10x_ws/build/trajectory_tracking/build
+[1.152s] creating /home/anoushka/robot10x_ws/build/trajectory_tracking/build/lib
+[1.152s] creating /home/anoushka/robot10x_ws/build/trajectory_tracking/build/lib/trajectory_tracking
+[1.152s] copying trajectory_tracking/tracking_node.py -> /home/anoushka/robot10x_ws/build/trajectory_tracking/build/lib/trajectory_tracking
+[1.152s] copying trajectory_tracking/__init__.py -> /home/anoushka/robot10x_ws/build/trajectory_tracking/build/lib/trajectory_tracking
+[1.152s] running install
+[1.153s] running install_lib
+[1.153s] creating /home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking
+[1.153s] copying /home/anoushka/robot10x_ws/build/trajectory_tracking/build/lib/trajectory_tracking/tracking_node.py -> /home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking
+[1.153s] copying /home/anoushka/robot10x_ws/build/trajectory_tracking/build/lib/trajectory_tracking/__init__.py -> /home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking
+[1.154s] byte-compiling /home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking/tracking_node.py to tracking_node.cpython-310.pyc
+[1.155s] byte-compiling /home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking/__init__.py to __init__.cpython-310.pyc
+[1.155s] running install_data
+[1.155s] creating /home/anoushka/robot10x_ws/install/trajectory_tracking/share/ament_index
+[1.155s] creating /home/anoushka/robot10x_ws/install/trajectory_tracking/share/ament_index/resource_index
+[1.155s] creating /home/anoushka/robot10x_ws/install/trajectory_tracking/share/ament_index/resource_index/packages
+[1.155s] copying resource/trajectory_tracking -> /home/anoushka/robot10x_ws/install/trajectory_tracking/share/ament_index/resource_index/packages
+[1.156s] copying package.xml -> /home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking
+[1.156s] running install_egg_info
+[1.157s] Copying ../../build/trajectory_tracking/trajectory_tracking.egg-info to /home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages/trajectory_tracking-0.0.0-py3.10.egg-info
+[1.158s] running install_scripts
+[1.179s] writing list of installed files to '/home/anoushka/robot10x_ws/build/trajectory_tracking/install.log'
+[1.200s] Invoked command in '/home/anoushka/robot10x_ws/src/trajectory_tracking' returned '0': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking build --build-base /home/anoushka/robot10x_ws/build/trajectory_tracking/build install --record /home/anoushka/robot10x_ws/build/trajectory_tracking/install.log --single-version-externally-managed install_data

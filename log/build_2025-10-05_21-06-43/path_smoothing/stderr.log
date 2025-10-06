@@ -1,0 +1,5 @@
+  File "/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages/path_smoothing/smoothing_node.py", line 9
+    from rclpy
+              ^
+SyntaxError: invalid syntax
+

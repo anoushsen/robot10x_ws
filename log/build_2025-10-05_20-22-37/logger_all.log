@@ -1,0 +1,545 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xf966867eed70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xf966867ee650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xf966867ee650>>, mixin_verb=('build',))
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.147s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anoushka/robot10x_ws'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_smoothing) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_smoothing' with type 'ros.ament_python' and name 'path_smoothing'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_description) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverrobotics_ros2/roverrobotics_description' with type 'ros.ament_cmake' and name 'roverrobotics_description'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_driver) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverrobotics_ros2/roverrobotics_driver' with type 'ros.ament_cmake' and name 'roverrobotics_driver'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_gazebo) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverrobotics_ros2/roverrobotics_gazebo' with type 'ros.ament_cmake' and name 'roverrobotics_gazebo'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverrobotics_ros2/roverrobotics_input_manager) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverrobotics_ros2/roverrobotics_input_manager' with type 'ros.ament_cmake' and name 'roverrobotics_input_manager'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_launch) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation_launch' with type 'ros.ament_python' and name 'simulation_launch'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generation) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_generation' with type 'ros.ament_python' and name 'trajectory_generation'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_tracking' with type 'ros.ament_python' and name 'trajectory_tracking'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/anoushka/robot10x_ws/install
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/anoushka/tennis_buddy/tennisbuddy/install
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/anoushka/rover_workspace/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'path_smoothing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'path_smoothing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/path_smoothing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/path_smoothing', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/path_smoothing', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'roverrobotics_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/roverrobotics_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/roverrobotics_description', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_description', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'roverrobotics_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/roverrobotics_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/roverrobotics_driver', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_driver', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_input_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'roverrobotics_input_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_input_manager', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_generation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_generation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/trajectory_generation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/trajectory_generation', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/trajectory_generation', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/trajectory_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/trajectory_tracking', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/trajectory_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'roverrobotics_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'roverrobotics_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anoushka/robot10x_ws/build/simulation_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anoushka/robot10x_ws/install/simulation_launch', 'merge_install': False, 'path': '/home/anoushka/robot10x_ws/src/simulation_launch', 'symlink_install': False, 'test_result_base': None}
+[0.215s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_description' with build type 'ament_cmake'
+[0.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_description'
+[0.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anoushka/robot10x_ws/src/path_smoothing' with build type 'ament_python'
+[0.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_smoothing', 'ament_prefix_path')
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/hook/ament_prefix_path.ps1'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/hook/ament_prefix_path.dsv'
+[0.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/hook/ament_prefix_path.sh'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_driver' with build type 'ament_cmake'
+[0.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_driver'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_input_manager' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_input_manager'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.234s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anoushka/robot10x_ws/src/trajectory_generation' with build type 'ament_python'
+[0.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_generation', 'ament_prefix_path')
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/hook/ament_prefix_path.ps1'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/hook/ament_prefix_path.dsv'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/hook/ament_prefix_path.sh'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anoushka/robot10x_ws/src/trajectory_tracking' with build type 'ament_python'
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tracking', 'ament_prefix_path')
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/hook/ament_prefix_path.ps1'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_description -- -j8 -l8
+[0.396s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anoushka/robot10x_ws/src/path_smoothing'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_driver -- -j8 -l8
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_input_manager -- -j8 -l8
+[0.534s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anoushka/robot10x_ws/src/trajectory_generation'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.666s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anoushka/robot10x_ws/src/trajectory_tracking'
+[0.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_description -- -j8 -l8
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_description
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_input_manager -- -j8 -l8
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_input_manager
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_driver -- -j8 -l8
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_driver
+[0.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_description)
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description' for CMake module files
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description' for CMake config files
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_description
+[0.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_description', 'cmake_prefix_path')
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/hook/cmake_prefix_path.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/hook/cmake_prefix_path.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/hook/cmake_prefix_path.sh'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/bin'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/lib/pkgconfig/roverrobotics_description.pc'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/lib/python3.10/site-packages'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/bin'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.ps1'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.dsv'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.sh'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.bash'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.zsh'
+[0.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_description/share/colcon-core/packages/roverrobotics_description)
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_description)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description' for CMake module files
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description' for CMake config files
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_description', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/hook/cmake_prefix_path.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/hook/cmake_prefix_path.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/hook/cmake_prefix_path.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/bin'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/lib/pkgconfig/roverrobotics_description.pc'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/lib/python3.10/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_description/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.sh'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.zsh'
+[0.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_description/share/colcon-core/packages/roverrobotics_description)
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_gazebo' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_gazebo'
+[0.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_input_manager)
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager' for CMake module files
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_input_manager
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager' for CMake config files
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_input_manager', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/hook/cmake_prefix_path.sh'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/pkgconfig/roverrobotics_input_manager.pc'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/python3.10/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/bin'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.zsh'
+[0.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/colcon-core/packages/roverrobotics_input_manager)
+[0.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_input_manager)
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager' for CMake module files
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager' for CMake config files
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_input_manager', 'cmake_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/hook/cmake_prefix_path.ps1'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/hook/cmake_prefix_path.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/hook/cmake_prefix_path.sh'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/bin'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/pkgconfig/roverrobotics_input_manager.pc'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/python3.10/site-packages'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/bin'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/colcon-core/packages/roverrobotics_input_manager)
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_driver)
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver' for CMake module files
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver' for CMake config files
+[0.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_driver', 'cmake_prefix_path')
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/hook/cmake_prefix_path.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/bin'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib/pkgconfig/roverrobotics_driver.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib/python3.10/site-packages'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/bin'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.ps1'
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_driver
+[0.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.dsv'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/colcon-core/packages/roverrobotics_driver)
+[0.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_driver)
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver' for CMake module files
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver' for CMake config files
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_driver', 'cmake_prefix_path')
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/hook/cmake_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/hook/cmake_prefix_path.dsv'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/hook/cmake_prefix_path.sh'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/bin'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib/pkgconfig/roverrobotics_driver.pc'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib/python3.10/site-packages'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_driver/bin'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.ps1'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.bash'
+[0.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.zsh'
+[0.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_driver/share/colcon-core/packages/roverrobotics_driver)
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo': CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/robot10x_ws/install/roverrobotics_input_manager:/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_gazebo -- -j8 -l8
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/robot10x_ws/install/roverrobotics_input_manager:/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/anoushka/robot10x_ws/build/roverrobotics_gazebo -- -j8 -l8
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo': CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/robot10x_ws/install/roverrobotics_input_manager:/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_gazebo
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_gazebo)
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo' for CMake module files
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/robot10x_ws/install/roverrobotics_input_manager:/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/robot10x_ws/install/trajectory_tracking:/home/anoushka/robot10x_ws/install/trajectory_generation:/home/anoushka/robot10x_ws/install/simulation_launch:/home/anoushka/robot10x_ws/install/path_smoothing:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/anoushka/robot10x_ws/build/roverrobotics_gazebo
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo' for CMake config files
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_gazebo', 'cmake_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/hook/cmake_prefix_path.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/hook/cmake_prefix_path.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/hook/cmake_prefix_path.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/bin'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/lib/pkgconfig/roverrobotics_gazebo.pc'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/lib/python3.10/site-packages'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/bin'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.bash'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.zsh'
+[0.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/colcon-core/packages/roverrobotics_gazebo)
+[0.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverrobotics_gazebo)
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo' for CMake module files
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo' for CMake config files
+[0.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverrobotics_gazebo', 'cmake_prefix_path')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/hook/cmake_prefix_path.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/hook/cmake_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/hook/cmake_prefix_path.sh'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/bin'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/lib/pkgconfig/roverrobotics_gazebo.pc'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/lib/python3.10/site-packages'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/bin'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.bash'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/colcon-core/packages/roverrobotics_gazebo)
+[0.828s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anoushka/robot10x_ws/src/simulation_launch' with build type 'ament_python'
+[0.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_launch', 'ament_prefix_path')
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/hook/ament_prefix_path.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/hook/ament_prefix_path.dsv'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/hook/ament_prefix_path.sh'
+[0.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.063s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anoushka/robot10x_ws/src/simulation_launch'
+[1.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/src/trajectory_tracking': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking build --build-base /home/anoushka/robot10x_ws/build/trajectory_tracking/build install --record /home/anoushka/robot10x_ws/build/trajectory_tracking/install.log --single-version-externally-managed install_data
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/src/path_smoothing': PYTHONPATH=/home/anoushka/robot10x_ws/build/path_smoothing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_smoothing build --build-base /home/anoushka/robot10x_ws/build/path_smoothing/build install --record /home/anoushka/robot10x_ws/build/path_smoothing/install.log --single-version-externally-managed install_data
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/src/trajectory_generation': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_generation build --build-base /home/anoushka/robot10x_ws/build/trajectory_generation/build install --record /home/anoushka/robot10x_ws/build/trajectory_generation/install.log --single-version-externally-managed install_data
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking' for CMake module files
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking' for CMake config files
+[1.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/src/trajectory_tracking' returned '0': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking build --build-base /home/anoushka/robot10x_ws/build/trajectory_tracking/build install --record /home/anoushka/robot10x_ws/build/trajectory_tracking/install.log --single-version-externally-managed install_data
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking/lib'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/pkgconfig/trajectory_tracking.pc'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking/lib/python3.10/site-packages'
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tracking', 'pythonpath')
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/hook/pythonpath.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/hook/pythonpath.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/hook/pythonpath.sh'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_tracking/bin'
+[1.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_tracking)
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/package.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/package.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/package.sh'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/package.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_tracking/share/trajectory_tracking/package.zsh'
+[1.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/trajectory_tracking/share/colcon-core/packages/trajectory_tracking)
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation' for CMake module files
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation' for CMake config files
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/src/trajectory_generation' returned '0': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_generation build --build-base /home/anoushka/robot10x_ws/build/trajectory_generation/build install --record /home/anoushka/robot10x_ws/build/trajectory_generation/install.log --single-version-externally-managed install_data
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation/lib'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation/bin'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation/lib/pkgconfig/trajectory_generation.pc'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages'
+[1.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_generation', 'pythonpath')
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/hook/pythonpath.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/hook/pythonpath.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/hook/pythonpath.sh'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/trajectory_generation/bin'
+[1.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_generation)
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/package.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/package.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/package.sh'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/package.bash'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/trajectory_generation/share/trajectory_generation/package.zsh'
+[1.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/trajectory_generation/share/colcon-core/packages/trajectory_generation)
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing' for CMake module files
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing' for CMake config files
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/src/path_smoothing' returned '0': PYTHONPATH=/home/anoushka/robot10x_ws/build/path_smoothing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_smoothing build --build-base /home/anoushka/robot10x_ws/build/path_smoothing/build install --record /home/anoushka/robot10x_ws/build/path_smoothing/install.log --single-version-externally-managed install_data
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing/lib'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing/bin'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing/lib/pkgconfig/path_smoothing.pc'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing/lib/python3.10/site-packages'
+[1.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_smoothing', 'pythonpath')
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/hook/pythonpath.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/hook/pythonpath.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/hook/pythonpath.sh'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/path_smoothing/bin'
+[1.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_smoothing)
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/package.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/package.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/package.sh'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/package.bash'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/path_smoothing/share/path_smoothing/package.zsh'
+[1.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/path_smoothing/share/colcon-core/packages/path_smoothing)
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anoushka/robot10x_ws/src/simulation_launch': CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/robot10x_ws/install/roverrobotics_input_manager:/home/anoushka/robot10x_ws/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description PYTHONPATH=/home/anoushka/robot10x_ws/build/simulation_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_launch build --build-base /home/anoushka/robot10x_ws/build/simulation_launch/build install --record /home/anoushka/robot10x_ws/build/simulation_launch/install.log --single-version-externally-managed install_data
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch' for CMake module files
+[1.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anoushka/robot10x_ws/src/simulation_launch' returned '0': CMAKE_PREFIX_PATH=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo:/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/robot10x_ws/install/roverrobotics_input_manager:/home/anoushka/robot10x_ws/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description PYTHONPATH=/home/anoushka/robot10x_ws/build/simulation_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_launch build --build-base /home/anoushka/robot10x_ws/build/simulation_launch/build install --record /home/anoushka/robot10x_ws/build/simulation_launch/install.log --single-version-externally-managed install_data
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch' for CMake config files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch/lib'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch/lib/pkgconfig/simulation_launch.pc'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch/lib/python3.10/site-packages'
+[1.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_launch', 'pythonpath')
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/hook/pythonpath.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/hook/pythonpath.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/hook/pythonpath.sh'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/anoushka/robot10x_ws/install/simulation_launch/bin'
+[1.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_launch)
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/package.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/package.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/package.sh'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/package.bash'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/anoushka/robot10x_ws/install/simulation_launch/share/simulation_launch/package.zsh'
+[1.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anoushka/robot10x_ws/install/simulation_launch/share/colcon-core/packages/simulation_launch)
+[1.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.431s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.436s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.481s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anoushka/robot10x_ws/install/local_setup.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anoushka/robot10x_ws/install/_local_setup_util_ps1.py'
+[1.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anoushka/robot10x_ws/install/setup.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anoushka/robot10x_ws/install/local_setup.sh'
+[1.488s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anoushka/robot10x_ws/install/_local_setup_util_sh.py'
+[1.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anoushka/robot10x_ws/install/setup.sh'
+[1.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anoushka/robot10x_ws/install/local_setup.bash'
+[1.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anoushka/robot10x_ws/install/setup.bash'
+[1.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anoushka/robot10x_ws/install/local_setup.zsh'
+[1.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anoushka/robot10x_ws/install/setup.zsh'

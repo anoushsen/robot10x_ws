@@ -1,0 +1,6 @@
+source;share/trajectory_generation/hook/pythonpath.ps1
+source;share/trajectory_generation/hook/pythonpath.dsv
+source;share/trajectory_generation/hook/pythonpath.sh
+source;share/trajectory_generation/hook/ament_prefix_path.ps1
+source;share/trajectory_generation/hook/ament_prefix_path.dsv
+source;share/trajectory_generation/hook/ament_prefix_path.sh

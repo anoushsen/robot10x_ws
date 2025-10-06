@@ -1,0 +1,3 @@
+[console_scripts]
+smoothing_node = path_smoothing.smoothing_node:main
+

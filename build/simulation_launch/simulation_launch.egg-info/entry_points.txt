@@ -1,0 +1,3 @@
+[console_scripts]
+mission_orchestrator = simulation_launch.mission_orchestrator:main
+

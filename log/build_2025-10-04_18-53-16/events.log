@@ -1,0 +1,795 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (roverrobotics_description) JobQueued: {'identifier': 'roverrobotics_description', 'dependencies': OrderedDict()}
+[0.000153] (roverrobotics_driver) JobQueued: {'identifier': 'roverrobotics_driver', 'dependencies': OrderedDict()}
+[0.000167] (roverrobotics_input_manager) JobQueued: {'identifier': 'roverrobotics_input_manager', 'dependencies': OrderedDict()}
+[0.000174] (roverrobotics_gazebo) JobQueued: {'identifier': 'roverrobotics_gazebo', 'dependencies': OrderedDict([('roverrobotics_description', '/home/anoushka/robot10x_ws/install/roverrobotics_description')])}
+[0.000183] (roverrobotics_description) JobStarted: {'identifier': 'roverrobotics_description'}
+[0.006650] (roverrobotics_driver) JobStarted: {'identifier': 'roverrobotics_driver'}
+[0.011024] (roverrobotics_input_manager) JobStarted: {'identifier': 'roverrobotics_input_manager'}
+[0.016997] (roverrobotics_description) JobProgress: {'identifier': 'roverrobotics_description', 'progress': 'cmake'}
+[0.019081] (roverrobotics_description) Command: {'cmd': ['/usr/bin/cmake', '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_description', '-DCMAKE_INSTALL_PREFIX=/home/anoushka/robot10x_ws/install/roverrobotics_description'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.024564] (roverrobotics_driver) JobProgress: {'identifier': 'roverrobotics_driver', 'progress': 'cmake'}
+[0.043975] (roverrobotics_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_driver', '-DCMAKE_INSTALL_PREFIX=/home/anoushka/robot10x_ws/install/roverrobotics_driver'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.056715] (roverrobotics_input_manager) JobProgress: {'identifier': 'roverrobotics_input_manager', 'progress': 'cmake'}
+[0.059659] (roverrobotics_input_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_input_manager', '-DCMAKE_INSTALL_PREFIX=/home/anoushka/robot10x_ws/install/roverrobotics_input_manager'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.101610] (-) TimerEvent: {}
+[0.201927] (-) TimerEvent: {}
+[0.302413] (-) TimerEvent: {}
+[0.381814] (roverrobotics_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.382302] (roverrobotics_input_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.382360] (roverrobotics_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402759] (-) TimerEvent: {}
+[0.506972] (-) TimerEvent: {}
+[0.595322] (roverrobotics_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.604856] (roverrobotics_input_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.607878] (-) TimerEvent: {}
+[0.612803] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.612905] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.615011] (roverrobotics_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.621445] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.708523] (-) TimerEvent: {}
+[0.742777] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.744716] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.753372] (roverrobotics_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.753631] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.755019] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.756163] (roverrobotics_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.756218] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.756263] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.758896] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.758965] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.760623] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.768542] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.768824] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.768922] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.771217] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.808735] (-) TimerEvent: {}
+[0.846885] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.849480] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.853015] (roverrobotics_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.853251] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.853702] (roverrobotics_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.854263] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.855521] (roverrobotics_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.855565] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.855592] (roverrobotics_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.859335] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.860011] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.860061] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.867689] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.867768] (roverrobotics_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.867800] (roverrobotics_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.908856] (-) TimerEvent: {}
+[0.994732] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.997333] (roverrobotics_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001978] (roverrobotics_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.010381] (-) TimerEvent: {}
+[1.110664] (-) TimerEvent: {}
+[1.139592] (roverrobotics_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.161726] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.161919] (roverrobotics_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.169252] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[1.169669] (roverrobotics_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.173366] (roverrobotics_description) StdoutLine: {'line': b'-- Build files have been written to: /home/anoushka/robot10x_ws/build/roverrobotics_description\n'}
+[1.173682] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/anoushka/robot10x_ws/build/roverrobotics_input_manager\n'}
+[1.190609] (roverrobotics_input_manager) CommandEnded: {'returncode': 0}
+[1.191644] (roverrobotics_input_manager) JobProgress: {'identifier': 'roverrobotics_input_manager', 'progress': 'build'}
+[1.191716] (roverrobotics_input_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager', '--', '-j8', '-l8'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[1.197951] (roverrobotics_description) CommandEnded: {'returncode': 0}
+[1.198885] (roverrobotics_description) JobProgress: {'identifier': 'roverrobotics_description', 'progress': 'build'}
+[1.198908] (roverrobotics_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anoushka/robot10x_ws/build/roverrobotics_description', '--', '-j8', '-l8'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[1.210910] (-) TimerEvent: {}
+[1.222702] (roverrobotics_input_manager) CommandEnded: {'returncode': 0}
+[1.222919] (roverrobotics_input_manager) JobProgress: {'identifier': 'roverrobotics_input_manager', 'progress': 'install'}
+[1.228882] (roverrobotics_input_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_input_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[1.232671] (roverrobotics_description) CommandEnded: {'returncode': 0}
+[1.232887] (roverrobotics_description) JobProgress: {'identifier': 'roverrobotics_description', 'progress': 'install'}
+[1.233016] (roverrobotics_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anoushka/robot10x_ws/build/roverrobotics_description'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[1.233612] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.233673] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules\n'}
+[1.234432] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/Controller.py\n'}
+[1.236786] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/__pycache__\n'}
+[1.238368] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/__pycache__/Controller.cpython-38.pyc\n'}
+[1.238481] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/__pycache__/Controller.cpython-310.pyc\n'}
+[1.239329] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/__pycache__/Topics.cpython-38.pyc\n'}
+[1.239424] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/__pycache__/Topics.cpython-310.pyc\n'}
+[1.239854] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/modules/Topics.py\n'}
+[1.240568] (roverrobotics_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.240891] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/rviz\n'}
+[1.241896] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/lib/roverrobotics_input_manager/joys_manager.py\n'}
+[1.242699] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/ament_index/resource_index/package_run_dependencies/roverrobotics_input_manager\n'}
+[1.242860] (roverrobotics_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.243829] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/rviz/urdf.rviz\n'}
+[1.244311] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch\n'}
+[1.246198] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_miti_65.launch.py\n'}
+[1.246303] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/ament_index/resource_index/parent_prefix_path/roverrobotics_input_manager\n'}
+[1.246740] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/environment/ament_prefix_path.sh\n'}
+[1.246813] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/environment/ament_prefix_path.dsv\n'}
+[1.247156] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/environment/path.sh\n'}
+[1.250468] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_max.launch.py\n'}
+[1.250571] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_2wd_rover.launch.py\n'}
+[1.250625] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_miti.launch.py\n'}
+[1.250749] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_mini.launch.py\n'}
+[1.252796] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_flipper.launch.py\n'}
+[1.252871] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/launch/display_4wd_rover.launch.py\n'}
+[1.252909] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes\n'}
+[1.253167] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/max_wheels_15in.dae\n'}
+[1.253218] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/environment/path.dsv\n'}
+[1.253246] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/local_setup.bash\n'}
+[1.253268] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/local_setup.sh\n'}
+[1.253291] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/local_setup.zsh\n'}
+[1.253327] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/local_setup.dsv\n'}
+[1.253367] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.dsv\n'}
+[1.253711] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/ament_index/resource_index/packages/roverrobotics_input_manager\n'}
+[1.253974] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/cmake/roverrobotics_input_managerConfig.cmake\n'}
+[1.254067] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/cmake/roverrobotics_input_managerConfig-version.cmake\n'}
+[1.254552] (roverrobotics_input_manager) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_input_manager/share/roverrobotics_input_manager/package.xml\n'}
+[1.258959] (roverrobotics_input_manager) CommandEnded: {'returncode': 0}
+[1.259621] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/max_wheels_13in.dae\n'}
+[1.260817] (roverrobotics_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.262879] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/miti_chassis_new.dae\n'}
+[1.274509] (roverrobotics_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.277063] (roverrobotics_input_manager) JobEnded: {'identifier': 'roverrobotics_input_manager', 'rc': 0}
+[1.286879] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/mini_chassis_new.dae\n'}
+[1.298774] (roverrobotics_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.311017] (-) TimerEvent: {}
+[1.322216] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/castor_housing.dae\n'}
+[1.327467] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/hub_6.5in.dae\n'}
+[1.328332] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/rover_2wd_core.dae\n'}
+[1.332175] (roverrobotics_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.399782] (roverrobotics_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.403715] (roverrobotics_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.411143] (-) TimerEvent: {}
+[1.428264] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/mini_chassis.dae\n'}
+[1.506986] (roverrobotics_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.511229] (-) TimerEvent: {}
+[1.533558] (roverrobotics_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.564872] (roverrobotics_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.583268] (roverrobotics_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.611461] (-) TimerEvent: {}
+[1.684898] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/flipper_track.dae\n'}
+[1.706486] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/flipper.dae\n'}
+[1.709820] (roverrobotics_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.709996] (roverrobotics_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.711605] (-) TimerEvent: {}
+[1.787311] (roverrobotics_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.788442] (roverrobotics_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.812972] (-) TimerEvent: {}
+[1.869298] (roverrobotics_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.886217] (roverrobotics_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.913122] (-) TimerEvent: {}
+[1.918675] (roverrobotics_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.940925] (roverrobotics_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.941957] (roverrobotics_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.942009] (roverrobotics_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.947659] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/65wheels.dae\n'}
+[1.952568] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/max_chassis.dae\n'}
+[2.014385] (-) TimerEvent: {}
+[2.025692] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/rplidar_s2.dae\n'}
+[2.030177] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/flipper_chassis.dae\n'}
+[2.096651] (roverrobotics_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.118560] (-) TimerEvent: {}
+[2.132578] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/rover_payload.dae\n'}
+[2.187126] (roverrobotics_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.212135] (roverrobotics_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[2.218715] (-) TimerEvent: {}
+[2.220725] (roverrobotics_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/anoushka/robot10x_ws/build/roverrobotics_driver\n'}
+[2.239639] (roverrobotics_driver) CommandEnded: {'returncode': 0}
+[2.240794] (roverrobotics_driver) JobProgress: {'identifier': 'roverrobotics_driver', 'progress': 'build'}
+[2.240822] (roverrobotics_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anoushka/robot10x_ws/build/roverrobotics_driver', '--', '-j8', '-l8'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[2.249714] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/pro_tire.dae\n'}
+[2.249984] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/hub_10in.dae\n'}
+[2.253419] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/max_wheels_10in.dae\n'}
+[2.260811] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/castor.dae\n'}
+[2.261599] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/meshes/miti_chassis.dae\n'}
+[2.303036] (roverrobotics_driver) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/src/roverrobotics_ros2_driver.cpp.o\x1b[0m\n'}
+[2.306702] (roverrobotics_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/utils.cpp.o\x1b[0m\n'}
+[2.309941] (roverrobotics_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/protocol_pro.cpp.o\x1b[0m\n'}
+[2.310370] (roverrobotics_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/comm_serial.cpp.o\x1b[0m\n'}
+[2.320353] (-) TimerEvent: {}
+[2.328427] (roverrobotics_driver) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/vesc.cpp.o\x1b[0m\n'}
+[2.329846] (roverrobotics_driver) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/utilities.cpp.o\x1b[0m\n'}
+[2.335379] (roverrobotics_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/control.cpp.o\x1b[0m\n'}
+[2.335551] (roverrobotics_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/comm_can.cpp.o\x1b[0m\n'}
+[2.423498] (-) TimerEvent: {}
+[2.523946] (-) TimerEvent: {}
+[2.620554] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf\n'}
+[2.621016] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/miti_65.urdf\n'}
+[2.621263] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/max_100.urdf\n'}
+[2.621333] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/max_130.urdf\n'}
+[2.621374] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/max.urdf\n'}
+[2.621400] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/accessories\n'}
+[2.621434] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/accessories/rplidar_s2.urdf\n'}
+[2.621467] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/accessories/rover_dev_payload.urdf\n'}
+[2.621541] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/accessories/imu.urdf\n'}
+[2.621575] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/rover_2wd.urdf\n'}
+[2.621608] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/flipper.urdf\n'}
+[2.621660] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/max_150.urdf\n'}
+[2.621694] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/miti.urdf\n'}
+[2.621875] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/mini.urdf\n'}
+[2.621994] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/max_65.urdf\n'}
+[2.622517] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/urdf/rover_4wd.urdf\n'}
+[2.622920] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/ament_index/resource_index/package_run_dependencies/roverrobotics_description\n'}
+[2.624042] (-) TimerEvent: {}
+[2.624550] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/ament_index/resource_index/parent_prefix_path/roverrobotics_description\n'}
+[2.624884] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/environment/ament_prefix_path.sh\n'}
+[2.625517] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/environment/ament_prefix_path.dsv\n'}
+[2.625738] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/environment/path.sh\n'}
+[2.626475] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/environment/path.dsv\n'}
+[2.626605] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/local_setup.bash\n'}
+[2.626670] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/local_setup.sh\n'}
+[2.626801] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/local_setup.zsh\n'}
+[2.626891] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/local_setup.dsv\n'}
+[2.627049] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.dsv\n'}
+[2.631226] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/ament_index/resource_index/packages/roverrobotics_description\n'}
+[2.631331] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/cmake/roverrobotics_descriptionConfig.cmake\n'}
+[2.631398] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/cmake/roverrobotics_descriptionConfig-version.cmake\n'}
+[2.631453] (roverrobotics_description) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_description/share/roverrobotics_description/package.xml\n'}
+[2.637630] (roverrobotics_description) CommandEnded: {'returncode': 0}
+[2.669528] (roverrobotics_description) JobEnded: {'identifier': 'roverrobotics_description', 'rc': 0}
+[2.670723] (roverrobotics_gazebo) JobStarted: {'identifier': 'roverrobotics_gazebo'}
+[2.731477] (roverrobotics_gazebo) JobProgress: {'identifier': 'roverrobotics_gazebo', 'progress': 'cmake'}
+[2.731551] (-) TimerEvent: {}
+[2.731877] (roverrobotics_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/anoushka/robot10x_ws/install/roverrobotics_gazebo'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[2.832285] (-) TimerEvent: {}
+[2.932957] (-) TimerEvent: {}
+[2.947270] (roverrobotics_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.033647] (-) TimerEvent: {}
+[3.122850] (roverrobotics_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.133962] (-) TimerEvent: {}
+[3.161281] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.236507] (-) TimerEvent: {}
+[3.340848] (-) TimerEvent: {}
+[3.442306] (-) TimerEvent: {}
+[3.465220] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.471712] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.471837] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.472270] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.475366] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.542797] (-) TimerEvent: {}
+[3.594484] (roverrobotics_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_driver/library/librover/src/vesc.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvesc::vescChannelStatus vesc::BridgedVescArray::parseReceivedMessage(std::vector<unsigned char>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.602327] (roverrobotics_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anoushka/robot10x_ws/src/roverrobotics_ros2/roverrobotics_driver/library/librover/src/vesc.cpp:76:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.602606] (roverrobotics_driver) StderrLine: {'line': b'   76 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.602681] (roverrobotics_driver) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.643258] (-) TimerEvent: {}
+[3.746086] (-) TimerEvent: {}
+[3.801590] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.822023] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.822377] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.825190] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.844778] (roverrobotics_driver) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/protocol_zero_2.cpp.o\x1b[0m\n'}
+[3.845524] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.846245] (-) TimerEvent: {}
+[3.888230] (roverrobotics_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/roverrobotics_driver.dir/library/librover/src/differential_robot.cpp.o\x1b[0m\n'}
+[3.947347] (-) TimerEvent: {}
+[4.049170] (-) TimerEvent: {}
+[4.149718] (-) TimerEvent: {}
+[4.252446] (-) TimerEvent: {}
+[4.281858] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.354223] (-) TimerEvent: {}
+[4.455773] (-) TimerEvent: {}
+[4.564750] (-) TimerEvent: {}
+[4.599271] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.665261] (-) TimerEvent: {}
+[4.753489] (roverrobotics_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.756875] (roverrobotics_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.757838] (roverrobotics_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.759430] (roverrobotics_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.762434] (roverrobotics_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.763585] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.766464] (-) TimerEvent: {}
+[4.787331] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[4.787739] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/anoushka/robot10x_ws/build/roverrobotics_gazebo\n'}
+[4.808574] (roverrobotics_gazebo) CommandEnded: {'returncode': 0}
+[4.820295] (roverrobotics_gazebo) JobProgress: {'identifier': 'roverrobotics_gazebo', 'progress': 'build'}
+[4.820353] (roverrobotics_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[4.867205] (-) TimerEvent: {}
+[4.884304] (roverrobotics_gazebo) CommandEnded: {'returncode': 0}
+[4.884854] (roverrobotics_gazebo) JobProgress: {'identifier': 'roverrobotics_gazebo', 'progress': 'install'}
+[4.884878] (roverrobotics_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/robot10x_ws/install/roverrobotics_description:/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[4.891595] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.891935] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch\n'}
+[4.892074] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/miti_65_gazebo.launch.py\n'}
+[4.892682] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/miti_gazebo.launch.py\n'}
+[4.892742] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/flipper_gazebo.launch.py\n'}
+[4.893624] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/4wd_rover_gazebo.launch.py\n'}
+[4.894371] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/mini_gazebo.launch.py\n'}
+[4.894451] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/2wd_rover_gazebo.launch.py\n'}
+[4.894496] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/launch/max_gazebo.launch.py\n'}
+[4.894542] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/worlds\n'}
+[4.895532] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/worlds/maze.sdf\n'}
+[4.896235] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/worlds/depot.sdf\n'}
+[4.896289] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/worlds/warehouse.sdf\n'}
+[4.897310] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/ament_index/resource_index/package_run_dependencies/roverrobotics_gazebo\n'}
+[4.897372] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/ament_index/resource_index/parent_prefix_path/roverrobotics_gazebo\n'}
+[4.898532] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/environment/ament_prefix_path.sh\n'}
+[4.899709] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/environment/ament_prefix_path.dsv\n'}
+[4.899759] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/environment/path.sh\n'}
+[4.903282] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/environment/path.dsv\n'}
+[4.903640] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/local_setup.bash\n'}
+[4.903703] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/local_setup.sh\n'}
+[4.903782] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/local_setup.zsh\n'}
+[4.903816] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/local_setup.dsv\n'}
+[4.903839] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.dsv\n'}
+[4.903880] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/ament_index/resource_index/packages/roverrobotics_gazebo\n'}
+[4.904198] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/cmake/roverrobotics_gazeboConfig.cmake\n'}
+[4.904243] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/cmake/roverrobotics_gazeboConfig-version.cmake\n'}
+[4.904270] (roverrobotics_gazebo) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_gazebo/share/roverrobotics_gazebo/package.xml\n'}
+[4.918421] (roverrobotics_gazebo) CommandEnded: {'returncode': 0}
+[4.938318] (roverrobotics_gazebo) JobEnded: {'identifier': 'roverrobotics_gazebo', 'rc': 0}
+[4.967485] (-) TimerEvent: {}
+[5.067932] (-) TimerEvent: {}
+[5.168760] (-) TimerEvent: {}
+[5.272808] (-) TimerEvent: {}
+[5.376765] (-) TimerEvent: {}
+[5.480565] (-) TimerEvent: {}
+[5.580865] (-) TimerEvent: {}
+[5.681993] (-) TimerEvent: {}
+[5.784537] (-) TimerEvent: {}
+[5.885207] (-) TimerEvent: {}
+[5.985519] (-) TimerEvent: {}
+[6.085942] (-) TimerEvent: {}
+[6.187563] (-) TimerEvent: {}
+[6.289965] (-) TimerEvent: {}
+[6.391753] (-) TimerEvent: {}
+[6.496222] (-) TimerEvent: {}
+[6.600612] (-) TimerEvent: {}
+[6.700891] (-) TimerEvent: {}
+[6.805445] (-) TimerEvent: {}
+[6.909876] (-) TimerEvent: {}
+[7.014528] (-) TimerEvent: {}
+[7.116723] (-) TimerEvent: {}
+[7.217294] (-) TimerEvent: {}
+[7.317656] (-) TimerEvent: {}
+[7.418010] (-) TimerEvent: {}
+[7.522734] (-) TimerEvent: {}
+[7.624415] (-) TimerEvent: {}
+[7.729293] (-) TimerEvent: {}
+[7.829724] (-) TimerEvent: {}
+[7.930537] (-) TimerEvent: {}
+[8.034569] (-) TimerEvent: {}
+[8.137229] (-) TimerEvent: {}
+[8.241272] (-) TimerEvent: {}
+[8.344600] (-) TimerEvent: {}
+[8.445881] (-) TimerEvent: {}
+[8.548408] (-) TimerEvent: {}
+[8.651881] (-) TimerEvent: {}
+[8.755576] (-) TimerEvent: {}
+[8.859417] (-) TimerEvent: {}
+[8.963336] (-) TimerEvent: {}
+[9.067172] (-) TimerEvent: {}
+[9.167403] (-) TimerEvent: {}
+[9.268287] (-) TimerEvent: {}
+[9.369552] (-) TimerEvent: {}
+[9.470772] (-) TimerEvent: {}
+[9.571565] (-) TimerEvent: {}
+[9.673877] (-) TimerEvent: {}
+[9.778023] (-) TimerEvent: {}
+[9.883197] (-) TimerEvent: {}
+[9.983707] (-) TimerEvent: {}
+[10.088686] (-) TimerEvent: {}
+[10.189292] (-) TimerEvent: {}
+[10.290555] (-) TimerEvent: {}
+[10.395520] (-) TimerEvent: {}
+[10.498680] (-) TimerEvent: {}
+[10.603246] (-) TimerEvent: {}
+[10.703583] (-) TimerEvent: {}
+[10.803958] (-) TimerEvent: {}
+[10.904257] (-) TimerEvent: {}
+[11.004715] (-) TimerEvent: {}
+[11.107167] (-) TimerEvent: {}
+[11.207523] (-) TimerEvent: {}
+[11.308081] (-) TimerEvent: {}
+[11.409249] (-) TimerEvent: {}
+[11.509698] (-) TimerEvent: {}
+[11.613170] (-) TimerEvent: {}
+[11.714279] (-) TimerEvent: {}
+[11.816329] (-) TimerEvent: {}
+[11.917337] (-) TimerEvent: {}
+[12.022609] (-) TimerEvent: {}
+[12.124217] (-) TimerEvent: {}
+[12.224487] (-) TimerEvent: {}
+[12.325182] (-) TimerEvent: {}
+[12.425583] (-) TimerEvent: {}
+[12.525980] (-) TimerEvent: {}
+[12.630300] (-) TimerEvent: {}
+[12.731697] (-) TimerEvent: {}
+[12.838066] (-) TimerEvent: {}
+[12.938639] (-) TimerEvent: {}
+[13.039184] (-) TimerEvent: {}
+[13.139774] (-) TimerEvent: {}
+[13.241022] (-) TimerEvent: {}
+[13.342575] (-) TimerEvent: {}
+[13.444397] (-) TimerEvent: {}
+[13.548236] (-) TimerEvent: {}
+[13.650028] (-) TimerEvent: {}
+[13.753989] (-) TimerEvent: {}
+[13.854523] (-) TimerEvent: {}
+[13.957428] (-) TimerEvent: {}
+[14.058052] (-) TimerEvent: {}
+[14.159222] (-) TimerEvent: {}
+[14.259887] (-) TimerEvent: {}
+[14.363946] (-) TimerEvent: {}
+[14.468240] (-) TimerEvent: {}
+[14.572659] (-) TimerEvent: {}
+[14.673874] (-) TimerEvent: {}
+[14.774407] (-) TimerEvent: {}
+[14.874776] (-) TimerEvent: {}
+[14.975132] (-) TimerEvent: {}
+[15.075405] (-) TimerEvent: {}
+[15.175947] (-) TimerEvent: {}
+[15.277940] (-) TimerEvent: {}
+[15.378315] (-) TimerEvent: {}
+[15.478619] (-) TimerEvent: {}
+[15.583562] (-) TimerEvent: {}
+[15.685466] (-) TimerEvent: {}
+[15.791214] (-) TimerEvent: {}
+[15.891538] (-) TimerEvent: {}
+[15.996527] (-) TimerEvent: {}
+[16.097061] (-) TimerEvent: {}
+[16.202374] (-) TimerEvent: {}
+[16.304941] (-) TimerEvent: {}
+[16.409780] (-) TimerEvent: {}
+[16.510248] (-) TimerEvent: {}
+[16.610593] (-) TimerEvent: {}
+[16.715174] (-) TimerEvent: {}
+[16.815973] (-) TimerEvent: {}
+[16.917173] (-) TimerEvent: {}
+[17.017777] (-) TimerEvent: {}
+[17.122581] (-) TimerEvent: {}
+[17.222927] (-) TimerEvent: {}
+[17.324233] (-) TimerEvent: {}
+[17.429189] (-) TimerEvent: {}
+[17.533638] (-) TimerEvent: {}
+[17.638566] (-) TimerEvent: {}
+[17.738886] (-) TimerEvent: {}
+[17.840829] (-) TimerEvent: {}
+[17.941483] (-) TimerEvent: {}
+[18.042206] (-) TimerEvent: {}
+[18.143081] (-) TimerEvent: {}
+[18.243998] (-) TimerEvent: {}
+[18.348515] (-) TimerEvent: {}
+[18.450309] (-) TimerEvent: {}
+[18.550895] (-) TimerEvent: {}
+[18.652354] (-) TimerEvent: {}
+[18.752845] (-) TimerEvent: {}
+[18.853852] (-) TimerEvent: {}
+[18.954432] (-) TimerEvent: {}
+[19.055161] (-) TimerEvent: {}
+[19.155896] (-) TimerEvent: {}
+[19.256471] (-) TimerEvent: {}
+[19.356774] (-) TimerEvent: {}
+[19.457845] (-) TimerEvent: {}
+[19.558579] (-) TimerEvent: {}
+[19.659216] (-) TimerEvent: {}
+[19.760215] (-) TimerEvent: {}
+[19.862406] (-) TimerEvent: {}
+[19.966445] (-) TimerEvent: {}
+[20.070691] (-) TimerEvent: {}
+[20.171494] (-) TimerEvent: {}
+[20.272262] (-) TimerEvent: {}
+[20.373018] (-) TimerEvent: {}
+[20.478165] (-) TimerEvent: {}
+[20.580261] (-) TimerEvent: {}
+[20.683900] (-) TimerEvent: {}
+[20.785411] (-) TimerEvent: {}
+[20.886616] (-) TimerEvent: {}
+[20.987141] (-) TimerEvent: {}
+[21.087781] (-) TimerEvent: {}
+[21.188624] (-) TimerEvent: {}
+[21.289756] (-) TimerEvent: {}
+[21.390825] (-) TimerEvent: {}
+[21.492507] (-) TimerEvent: {}
+[21.593274] (-) TimerEvent: {}
+[21.698254] (-) TimerEvent: {}
+[21.800941] (-) TimerEvent: {}
+[21.902460] (-) TimerEvent: {}
+[22.002981] (-) TimerEvent: {}
+[22.108201] (-) TimerEvent: {}
+[22.212740] (-) TimerEvent: {}
+[22.317157] (-) TimerEvent: {}
+[22.421740] (-) TimerEvent: {}
+[22.523542] (-) TimerEvent: {}
+[22.628469] (-) TimerEvent: {}
+[22.729199] (-) TimerEvent: {}
+[22.829609] (-) TimerEvent: {}
+[22.931684] (-) TimerEvent: {}
+[23.032418] (-) TimerEvent: {}
+[23.132923] (-) TimerEvent: {}
+[23.234374] (-) TimerEvent: {}
+[23.335476] (-) TimerEvent: {}
+[23.436349] (-) TimerEvent: {}
+[23.537212] (-) TimerEvent: {}
+[23.637785] (-) TimerEvent: {}
+[23.738456] (-) TimerEvent: {}
+[23.838739] (-) TimerEvent: {}
+[23.940499] (-) TimerEvent: {}
+[24.045251] (-) TimerEvent: {}
+[24.149690] (-) TimerEvent: {}
+[24.250176] (-) TimerEvent: {}
+[24.353440] (-) TimerEvent: {}
+[24.454482] (-) TimerEvent: {}
+[24.554900] (-) TimerEvent: {}
+[24.655131] (-) TimerEvent: {}
+[24.755559] (-) TimerEvent: {}
+[24.856361] (-) TimerEvent: {}
+[24.957210] (-) TimerEvent: {}
+[25.058197] (-) TimerEvent: {}
+[25.158534] (-) TimerEvent: {}
+[25.260327] (-) TimerEvent: {}
+[25.361725] (-) TimerEvent: {}
+[25.466547] (-) TimerEvent: {}
+[25.567084] (-) TimerEvent: {}
+[25.667540] (-) TimerEvent: {}
+[25.768991] (-) TimerEvent: {}
+[25.869669] (-) TimerEvent: {}
+[25.970162] (-) TimerEvent: {}
+[26.071257] (-) TimerEvent: {}
+[26.172267] (-) TimerEvent: {}
+[26.276204] (-) TimerEvent: {}
+[26.378057] (-) TimerEvent: {}
+[26.479168] (-) TimerEvent: {}
+[26.580302] (-) TimerEvent: {}
+[26.681757] (-) TimerEvent: {}
+[26.786902] (-) TimerEvent: {}
+[26.891975] (-) TimerEvent: {}
+[26.995273] (-) TimerEvent: {}
+[27.098252] (-) TimerEvent: {}
+[27.198807] (-) TimerEvent: {}
+[27.299148] (-) TimerEvent: {}
+[27.403981] (-) TimerEvent: {}
+[27.504241] (-) TimerEvent: {}
+[27.604755] (-) TimerEvent: {}
+[27.706608] (-) TimerEvent: {}
+[27.807254] (-) TimerEvent: {}
+[27.907523] (-) TimerEvent: {}
+[28.008480] (-) TimerEvent: {}
+[28.114076] (-) TimerEvent: {}
+[28.219212] (-) TimerEvent: {}
+[28.323220] (-) TimerEvent: {}
+[28.428198] (-) TimerEvent: {}
+[28.528896] (-) TimerEvent: {}
+[28.629579] (-) TimerEvent: {}
+[28.732482] (-) TimerEvent: {}
+[28.833139] (-) TimerEvent: {}
+[28.934839] (-) TimerEvent: {}
+[29.036123] (-) TimerEvent: {}
+[29.136661] (-) TimerEvent: {}
+[29.240338] (-) TimerEvent: {}
+[29.344801] (-) TimerEvent: {}
+[29.448518] (-) TimerEvent: {}
+[29.549254] (-) TimerEvent: {}
+[29.652242] (-) TimerEvent: {}
+[29.752671] (-) TimerEvent: {}
+[29.857250] (-) TimerEvent: {}
+[29.957988] (-) TimerEvent: {}
+[30.062324] (-) TimerEvent: {}
+[30.166378] (-) TimerEvent: {}
+[30.266708] (-) TimerEvent: {}
+[30.367133] (-) TimerEvent: {}
+[30.467829] (-) TimerEvent: {}
+[30.569239] (-) TimerEvent: {}
+[30.670381] (-) TimerEvent: {}
+[30.774537] (-) TimerEvent: {}
+[30.876308] (-) TimerEvent: {}
+[30.977590] (-) TimerEvent: {}
+[31.079665] (-) TimerEvent: {}
+[31.180636] (-) TimerEvent: {}
+[31.282048] (-) TimerEvent: {}
+[31.383164] (-) TimerEvent: {}
+[31.483806] (-) TimerEvent: {}
+[31.584766] (-) TimerEvent: {}
+[31.685305] (-) TimerEvent: {}
+[31.787282] (-) TimerEvent: {}
+[31.888728] (-) TimerEvent: {}
+[31.993407] (-) TimerEvent: {}
+[32.098060] (-) TimerEvent: {}
+[32.203048] (-) TimerEvent: {}
+[32.307954] (-) TimerEvent: {}
+[32.414852] (-) TimerEvent: {}
+[32.520157] (-) TimerEvent: {}
+[32.622917] (-) TimerEvent: {}
+[32.726961] (-) TimerEvent: {}
+[32.830421] (-) TimerEvent: {}
+[32.931186] (-) TimerEvent: {}
+[33.031925] (-) TimerEvent: {}
+[33.132664] (-) TimerEvent: {}
+[33.233166] (-) TimerEvent: {}
+[33.334892] (-) TimerEvent: {}
+[33.436913] (-) TimerEvent: {}
+[33.542031] (-) TimerEvent: {}
+[33.644320] (-) TimerEvent: {}
+[33.765664] (-) TimerEvent: {}
+[33.866228] (-) TimerEvent: {}
+[33.968070] (-) TimerEvent: {}
+[34.070543] (-) TimerEvent: {}
+[34.173226] (-) TimerEvent: {}
+[34.273633] (-) TimerEvent: {}
+[34.375901] (-) TimerEvent: {}
+[34.480649] (-) TimerEvent: {}
+[34.584448] (-) TimerEvent: {}
+[34.684749] (-) TimerEvent: {}
+[34.789506] (-) TimerEvent: {}
+[34.890768] (-) TimerEvent: {}
+[34.994225] (-) TimerEvent: {}
+[35.096710] (-) TimerEvent: {}
+[35.201258] (-) TimerEvent: {}
+[35.301916] (-) TimerEvent: {}
+[35.402352] (-) TimerEvent: {}
+[35.502831] (-) TimerEvent: {}
+[35.605074] (-) TimerEvent: {}
+[35.705769] (-) TimerEvent: {}
+[35.806145] (-) TimerEvent: {}
+[35.906532] (-) TimerEvent: {}
+[36.007268] (-) TimerEvent: {}
+[36.107604] (-) TimerEvent: {}
+[36.207893] (-) TimerEvent: {}
+[36.311955] (-) TimerEvent: {}
+[36.413727] (-) TimerEvent: {}
+[36.518163] (-) TimerEvent: {}
+[36.623161] (-) TimerEvent: {}
+[36.723647] (-) TimerEvent: {}
+[36.825659] (-) TimerEvent: {}
+[36.926409] (-) TimerEvent: {}
+[37.027295] (-) TimerEvent: {}
+[37.129195] (-) TimerEvent: {}
+[37.229802] (-) TimerEvent: {}
+[37.331753] (-) TimerEvent: {}
+[37.434698] (-) TimerEvent: {}
+[37.539575] (-) TimerEvent: {}
+[37.643937] (-) TimerEvent: {}
+[37.744342] (-) TimerEvent: {}
+[37.847775] (-) TimerEvent: {}
+[37.948262] (-) TimerEvent: {}
+[38.050803] (-) TimerEvent: {}
+[38.151644] (-) TimerEvent: {}
+[38.252674] (-) TimerEvent: {}
+[38.354671] (-) TimerEvent: {}
+[38.455970] (-) TimerEvent: {}
+[38.556479] (-) TimerEvent: {}
+[38.658326] (-) TimerEvent: {}
+[38.760236] (-) TimerEvent: {}
+[38.861649] (-) TimerEvent: {}
+[38.963027] (-) TimerEvent: {}
+[39.063804] (-) TimerEvent: {}
+[39.164468] (-) TimerEvent: {}
+[39.267395] (-) TimerEvent: {}
+[39.367713] (-) TimerEvent: {}
+[39.468073] (-) TimerEvent: {}
+[39.568473] (-) TimerEvent: {}
+[39.672302] (-) TimerEvent: {}
+[39.777412] (-) TimerEvent: {}
+[39.881213] (-) TimerEvent: {}
+[39.985465] (-) TimerEvent: {}
+[40.090492] (-) TimerEvent: {}
+[40.193190] (-) TimerEvent: {}
+[40.293438] (-) TimerEvent: {}
+[40.394377] (-) TimerEvent: {}
+[40.495320] (-) TimerEvent: {}
+[40.597293] (-) TimerEvent: {}
+[40.698864] (-) TimerEvent: {}
+[40.800150] (-) TimerEvent: {}
+[40.904314] (-) TimerEvent: {}
+[41.005311] (-) TimerEvent: {}
+[41.107794] (-) TimerEvent: {}
+[41.209658] (-) TimerEvent: {}
+[41.310183] (-) TimerEvent: {}
+[41.410904] (-) TimerEvent: {}
+[41.517213] (-) TimerEvent: {}
+[41.620678] (-) TimerEvent: {}
+[41.724408] (-) TimerEvent: {}
+[41.828488] (-) TimerEvent: {}
+[41.928832] (-) TimerEvent: {}
+[42.032304] (-) TimerEvent: {}
+[42.136757] (-) TimerEvent: {}
+[42.240224] (-) TimerEvent: {}
+[42.340739] (-) TimerEvent: {}
+[42.441573] (-) TimerEvent: {}
+[42.542456] (-) TimerEvent: {}
+[42.643769] (-) TimerEvent: {}
+[42.745871] (-) TimerEvent: {}
+[42.847692] (-) TimerEvent: {}
+[42.948844] (-) TimerEvent: {}
+[43.051073] (-) TimerEvent: {}
+[43.152533] (-) TimerEvent: {}
+[43.257679] (-) TimerEvent: {}
+[43.358370] (-) TimerEvent: {}
+[43.450173] (roverrobotics_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable roverrobotics_driver\x1b[0m\n'}
+[43.458581] (-) TimerEvent: {}
+[43.560707] (-) TimerEvent: {}
+[43.661530] (-) TimerEvent: {}
+[43.765465] (-) TimerEvent: {}
+[43.870373] (-) TimerEvent: {}
+[43.970860] (-) TimerEvent: {}
+[44.076132] (-) TimerEvent: {}
+[44.181145] (-) TimerEvent: {}
+[44.285933] (-) TimerEvent: {}
+[44.386262] (-) TimerEvent: {}
+[44.486603] (-) TimerEvent: {}
+[44.588862] (-) TimerEvent: {}
+[44.689433] (-) TimerEvent: {}
+[44.696778] (roverrobotics_driver) StdoutLine: {'line': b'[100%] Built target roverrobotics_driver\n'}
+[44.730432] (roverrobotics_driver) CommandEnded: {'returncode': 0}
+[44.737203] (roverrobotics_driver) JobProgress: {'identifier': 'roverrobotics_driver', 'progress': 'install'}
+[44.738972] (roverrobotics_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anoushka/robot10x_ws/build/roverrobotics_driver'], 'cwd': '/home/anoushka/robot10x_ws/build/roverrobotics_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anoushka'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anoushka'), ('OLDPWD', '/home/anoushka/robot10x_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anoushka/robot10x_ws/install:/home/anoushka/planning_ws/install:/home/anoushka/tennis_buddy/tennisbuddy/install:/home/anoushka/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anoushka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anoushka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anoushka-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1351,unix/anoushka-QEMU-Virtual-Machine:/tmp/.ICE-unix/1351'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c589e310_3c26_4f36_8b29_a721401e726e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B9CTD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/rover_workspace/install/bno055:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anoushka/robot10x_ws/build/roverrobotics_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/anoushka/rover_workspace/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MESA_GLSL_VERSION_OVERRIDE', '450'), ('CMAKE_PREFIX_PATH', '/home/anoushka/planning_ws/install/tennisbuddy_gazebo:/home/anoushka/planning_ws/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/rplidar_ros:/home/anoushka/rover_workspace/install/roverrobotics_input_manager:/home/anoushka/rover_workspace/install/roverrobotics_gazebo:/home/anoushka/rover_workspace/install/roverrobotics_driver:/home/anoushka/rover_workspace/install/roverrobotics_description:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_ros2_control:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_planning:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_perception:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_gazebo:/home/anoushka/tennis_buddy/tennisbuddy/install/tennisbuddy_description:/home/anoushka/rover_workspace/install/bno055:/opt/ros/humble')]), 'shell': False}
+[44.753814] (roverrobotics_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.754289] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch\n'}
+[44.755953] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/miti_teleop.launch.py\n'}
+[44.756543] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/mini.launch.py\n'}
+[44.756972] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/outdoor_navigation_launch.py\n'}
+[44.757283] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/navigation_launch.py\n'}
+[44.757415] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/pro.launch.py\n'}
+[44.757495] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/ps5_controller.launch.py\n'}
+[44.757687] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/ps4_controller.launch.py\n'}
+[44.757778] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/max_teleop.launch.py\n'}
+[44.757966] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/nav2_backend.py\n'}
+[44.758356] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/miti_65.launch.py\n'}
+[44.758462] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/pro_teleop.launch.py\n'}
+[44.758576] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/miti.launch.py\n'}
+[44.758735] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/robot_localizer_outdoor.launch.py\n'}
+[44.759305] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/mini_teleop.launch.py\n'}
+[44.759390] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/accessories.launch.py\n'}
+[44.759496] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/max.launch.py\n'}
+[44.759555] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/slam_launch.py\n'}
+[44.759828] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/robot_localizer.launch.py\n'}
+[44.759936] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/zero_teleop.launch.py\n'}
+[44.760150] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/miti_65_teleop.launch.py\n'}
+[44.760370] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/launch/zero.launch.py\n'}
+[44.760475] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config\n'}
+[44.760730] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/miti_config.yaml\n'}
+[44.761201] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/miti_65_config.yaml\n'}
+[44.761358] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/accessories.yaml\n'}
+[44.761621] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/ps5_controller_config.yaml\n'}
+[44.762052] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/localization_ekf.yaml\n'}
+[44.762309] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/mini_config.yaml\n'}
+[44.762410] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/pro_config.yaml\n'}
+[44.762836] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/ps4_controller_config.yaml\n'}
+[44.763066] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/max_150_config.yaml\n'}
+[44.763315] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/realsense_config.yaml\n'}
+[44.763582] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/max_130_config.yaml\n'}
+[44.763695] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/max_65_config.yaml\n'}
+[44.763728] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/ps5_controller_config_jp6.yaml\n'}
+[44.763952] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/rviz_configs\n'}
+[44.764224] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/rviz_configs/slam_rviz_layout.rviz\n'}
+[44.764602] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/rviz_configs/nav2_default_view.rviz\n'}
+[44.764689] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/rviz_configs/realsense_rviz_layout.rviz\n'}
+[44.764779] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/localization_outdoor_ekf.yaml\n'}
+[44.765028] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/nav2_params.yaml\n'}
+[44.765433] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/slam_configs\n'}
+[44.765675] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/slam_configs/mapper_params_online_sync.yaml\n'}
+[44.766164] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/slam_configs/mapper_params_lifelong.yaml\n'}
+[44.766410] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/slam_configs/mapper_params_offline.yaml\n'}
+[44.766657] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/slam_configs/mapper_params_online_async.yaml\n'}
+[44.766726] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/slam_configs/mapper_params_localization.yaml\n'}
+[44.766824] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/ps4_controller_config_jp6.yaml\n'}
+[44.766909] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/zero_config.yaml\n'}
+[44.766938] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/max_100_config.yaml\n'}
+[44.766993] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/config/topics.yaml\n'}
+[44.767605] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/maps\n'}
+[44.767865] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/maps/maze_map.data\n'}
+[44.789496] (-) TimerEvent: {}
+[44.840218] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/maps/maze_map.pgm\n'}
+[44.840604] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/maps/maze_map.yaml\n'}
+[44.840874] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/maps/maze_map.posegraph\n'}
+[44.890668] (-) TimerEvent: {}
+[44.918605] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/lib/roverrobotics_driver/roverrobotics_driver\n'}
+[44.977292] (roverrobotics_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/anoushka/robot10x_ws/install/roverrobotics_driver/lib/roverrobotics_driver/roverrobotics_driver" to ""\n'}
+[44.977655] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/ament_index/resource_index/package_run_dependencies/roverrobotics_driver\n'}
+[44.978181] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/ament_index/resource_index/parent_prefix_path/roverrobotics_driver\n'}
+[44.978715] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/environment/ament_prefix_path.sh\n'}
+[44.979000] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/environment/ament_prefix_path.dsv\n'}
+[44.979482] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/environment/path.sh\n'}
+[44.979583] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/environment/path.dsv\n'}
+[44.979677] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/local_setup.bash\n'}
+[44.979970] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/local_setup.sh\n'}
+[44.980462] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/local_setup.zsh\n'}
+[44.980722] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/local_setup.dsv\n'}
+[44.981207] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.dsv\n'}
+[44.981452] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/ament_index/resource_index/packages/roverrobotics_driver\n'}
+[44.982024] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/cmake/roverrobotics_driverConfig.cmake\n'}
+[44.983633] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/cmake/roverrobotics_driverConfig-version.cmake\n'}
+[44.984121] (roverrobotics_driver) StdoutLine: {'line': b'-- Installing: /home/anoushka/robot10x_ws/install/roverrobotics_driver/share/roverrobotics_driver/package.xml\n'}
+[44.994414] (roverrobotics_driver) CommandEnded: {'returncode': 0}
+[44.994621] (-) TimerEvent: {}
+[45.011356] (roverrobotics_driver) JobEnded: {'identifier': 'roverrobotics_driver', 'rc': 0}
+[45.014207] (-) EventReactorShutdown: {}

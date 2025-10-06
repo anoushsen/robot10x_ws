@@ -1,0 +1,21 @@
+[1.086s] Invoking command in '/home/anoushka/robot10x_ws/src/trajectory_generation': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_generation build --build-base /home/anoushka/robot10x_ws/build/trajectory_generation/build install --record /home/anoushka/robot10x_ws/build/trajectory_generation/install.log --single-version-externally-managed install_data
+[1.312s] running egg_info
+[1.314s] writing ../../build/trajectory_generation/trajectory_generation.egg-info/PKG-INFO
+[1.314s] writing dependency_links to ../../build/trajectory_generation/trajectory_generation.egg-info/dependency_links.txt
+[1.315s] writing entry points to ../../build/trajectory_generation/trajectory_generation.egg-info/entry_points.txt
+[1.316s] writing requirements to ../../build/trajectory_generation/trajectory_generation.egg-info/requires.txt
+[1.316s] writing top-level names to ../../build/trajectory_generation/trajectory_generation.egg-info/top_level.txt
+[1.319s] reading manifest file '../../build/trajectory_generation/trajectory_generation.egg-info/SOURCES.txt'
+[1.319s] writing manifest file '../../build/trajectory_generation/trajectory_generation.egg-info/SOURCES.txt'
+[1.320s] running build
+[1.320s] running build_py
+[1.321s] running install
+[1.321s] running install_lib
+[1.323s] running install_data
+[1.323s] running install_egg_info
+[1.324s] removing '/home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages/trajectory_generation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.325s] Copying ../../build/trajectory_generation/trajectory_generation.egg-info to /home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages/trajectory_generation-0.0.0-py3.10.egg-info
+[1.329s] running install_scripts
+[1.347s] Installing trajectory_node script to /home/anoushka/robot10x_ws/install/trajectory_generation/lib/trajectory_generation
+[1.349s] writing list of installed files to '/home/anoushka/robot10x_ws/build/trajectory_generation/install.log'
+[1.375s] Invoked command in '/home/anoushka/robot10x_ws/src/trajectory_generation' returned '0': PYTHONPATH=/home/anoushka/robot10x_ws/build/trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anoushka/robot10x_ws/install/trajectory_generation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_generation build --build-base /home/anoushka/robot10x_ws/build/trajectory_generation/build install --record /home/anoushka/robot10x_ws/build/trajectory_generation/install.log --single-version-externally-managed install_data
