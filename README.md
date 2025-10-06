@@ -75,8 +75,11 @@ You’ll see console messages confirming path, trajectory, and tracking initiali
 ### For Debugging
 
 ros2 topic list
+
 ros2 topic echo /smooth_path
+
 ros2 topic echo /trajectory
+
 ros2 topic echo /mission_complete
 
 
